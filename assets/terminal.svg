@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Terminal: whoami — Aleck Martinez, founder and principal engineer at Devleck. Stack: TypeScript, React, Next.js, Astro, Node.js, PostgreSQL, GSAP. Open for new projects, remote worldwide, Spanish and English.">
+<title>Terminal: whoami — Aleck Martinez, founder and principal engineer at Devleck. Stack: TypeScript, React, Next.js, Astro, Node.js, PostgreSQL, GSAP. Open for new projects, remote worldwide, Spanish and English.</title>
+<style>.mono{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}} .blink{animation:blink 1s steps(1) infinite}
+  @keyframes sweep{0%{transform:translateX(-40%)}100%{transform:translateX(160%)}} .sweep{animation:sweep 6s linear infinite}
+  @keyframes l0{0%,3.333%{width:0}8.889%,95%{width:97.6px}100%{width:0}}
+  .l0{animation:l0 18s infinite;animation-timing-function:steps(8,end)}
+@keyframes l1{0%,10.556%{width:0}20.556%,95%{width:658.8px}100%{width:0}}
+  .l1{animation:l1 18s infinite;animation-timing-function:steps(54,end)}
+@keyframes l2{0%,20.000%{width:0}25.556%,95%{width:183px}100%{width:0}}
+  .l2{animation:l2 18s infinite;animation-timing-function:steps(15,end)}
+@keyframes l3{0%,25.556%{width:0}40.000%,95%{width:805.2px}100%{width:0}}
+  .l3{animation:l3 18s infinite;animation-timing-function:steps(66,end)}
+@keyframes l4{0%,41.111%{width:0}47.778%,95%{width:195.2px}100%{width:0}}
+  .l4{animation:l4 18s infinite;animation-timing-function:steps(16,end)}
+@keyframes l5{0%,46.667%{width:0}57.778%,95%{width:707.6px}100%{width:0}}
+  .l5{animation:l5 18s infinite;animation-timing-function:steps(58,end)}
+@keyframes caret{0%{transform:translate(56px,101px)}3.333%{transform:translate(56px,101px)}8.889%{transform:translate(153.6px,101px)}8.90%{transform:translate(56px,141px)}10.556%{transform:translate(56px,141px)}20.556%{transform:translate(714.8px,141px)}20.57%{transform:translate(56px,191px)}20.000%{transform:translate(56px,191px)}25.556%{transform:translate(239.0px,191px)}25.57%{transform:translate(56px,231px)}25.556%{transform:translate(56px,231px)}40.000%{transform:translate(861.2px,231px)}40.01%{transform:translate(56px,281px)}41.111%{transform:translate(56px,281px)}47.778%{transform:translate(251.2px,281px)}47.79%{transform:translate(56px,321px)}46.667%{transform:translate(56px,321px)}57.778%{transform:translate(763.6px,321px)}95%{transform:translate(763.6px,321px)}100%{transform:translate(56px,101px)}}
+  .caret{animation:caret 18s infinite;animation-timing-function:steps(1,end)}
+  </style>
+
+<defs><clipPath id="c0"><rect class="l0" x="56" y="94" height="34" width="0"/></clipPath><clipPath id="c1"><rect class="l1" x="56" y="134" height="34" width="0"/></clipPath><clipPath id="c2"><rect class="l2" x="56" y="184" height="34" width="0"/></clipPath><clipPath id="c3"><rect class="l3" x="56" y="224" height="34" width="0"/></clipPath><clipPath id="c4"><rect class="l4" x="56" y="274" height="34" width="0"/></clipPath><clipPath id="c5"><rect class="l5" x="56" y="314" height="34" width="0"/></clipPath>
+  <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#EFFF00" stop-opacity="0"/><stop offset=".5" stop-color="#EFFF00" stop-opacity=".12"/><stop offset="1" stop-color="#EFFF00" stop-opacity="0"/></linearGradient>
+  <clipPath id="panel"><rect x="1" y="1" width="1198" height="358"/></clipPath>
+</defs>
+<rect width="1200" height="360" fill="#0B0C0A"/>
+<rect x=".5" y=".5" width="1199" height="359" fill="none" stroke="#EFFF00" stroke-opacity=".22"/>
+<g clip-path="url(#panel)"><g class="sweep"><rect x="0" y="0" width="480" height="3" fill="url(#hl)"/></g></g>
+<rect x="0" y="0" width="1200" height="54" fill="#050505"/>
+<path d="M0 54H1200" stroke="#EFFF00" stroke-opacity=".16"/>
+<g><rect x="28" y="21" width="11" height="11" fill="#EFFF00"/><rect x="48" y="21" width="11" height="11" fill="#565A52"/><rect x="68" y="21" width="11" height="11" fill="#565A52"/></g>
+<text class="mono" x="104" y="32" font-size="14" letter-spacing="2.4" fill="#8B9084">devleck@studio — ~/aleck</text>
+<text class="mono" x="1172" y="32" font-size="12" letter-spacing="3.5" fill="#EFFF00" text-anchor="end" opacity=".8">LIVE</text>
+<g class="mono">
+<text clip-path="url(#c0)" x="56" y="118" fill="#EFFF00" font-size="20" textLength="97.6" lengthAdjust="spacing" xml:space="preserve">$ whoami</text>
+<text clip-path="url(#c1)" x="56" y="158" fill="#F2F4EF" font-size="20" textLength="658.8" lengthAdjust="spacing" xml:space="preserve">aleck martinez — founder &amp; principal engineer, Devleck</text>
+<text clip-path="url(#c2)" x="56" y="208" fill="#EFFF00" font-size="20" textLength="183.0" lengthAdjust="spacing" xml:space="preserve">$ cat stack.txt</text>
+<text clip-path="url(#c3)" x="56" y="248" fill="#8B9084" font-size="20" textLength="805.2" lengthAdjust="spacing" xml:space="preserve">TypeScript · React · Next.js · Astro · Node.js · PostgreSQL · GSAP</text>
+<text clip-path="url(#c4)" x="56" y="298" fill="#EFFF00" font-size="20" textLength="195.2" lengthAdjust="spacing" xml:space="preserve">$ ./status --now</text>
+<text clip-path="url(#c5)" x="56" y="338" fill="#F2F4EF" font-size="20" textLength="707.6" lengthAdjust="spacing" xml:space="preserve">● open for new projects   ● remote · worldwide   ● ES / EN</text>
+<rect class="caret blink" x="0" y="0" width="11" height="22" fill="#EFFF00"/>
+</g>
+
+</svg>

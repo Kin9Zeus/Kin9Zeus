@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 500" width="1280" height="500" role="img" aria-label="Devleck — custom software, automation and applied AI. Aleck Martinez, founder.">
+<title>Devleck — custom software, automation and applied AI. Aleck Martinez, founder.</title>
+<style>
+  .mono{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace} .sans{font-family:'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif}
+  @keyframes sweep{0%{transform:translateY(-160px)}100%{transform:translateY(540px)}}
+  .sweep{animation:sweep 7s linear infinite}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .blink{animation:blink 1.1s steps(1) infinite}
+  @keyframes lock{0%{transform:translate(0,0);opacity:0}5%{transform:translate(-9px,0);opacity:.95}12%{transform:translate(7px,-2px);opacity:.8}20%{transform:translate(-5px,1px);opacity:.9}32%{transform:translate(4px,0);opacity:.6}45%{transform:translate(-2px,0);opacity:.5}62%{transform:translate(1px,0);opacity:.3}80%{transform:translate(0,0);opacity:.15}100%{transform:translate(0,0);opacity:0}}
+  @keyframes burst{0%,86%,100%{transform:translate(0,0);opacity:0}87%{transform:translate(-8px,0);opacity:.9}89%{transform:translate(7px,-3px);opacity:.85}91%{transform:translate(-4px,2px);opacity:.8}93%{transform:translate(2px,0);opacity:.5}95%{transform:translate(0,0);opacity:0}}
+  .gm{animation:lock 2s steps(18) 1 both, burst 9s steps(1) 3s infinite}
+  .gc{animation:lock 2s steps(18) 1 both reverse, burst 9s steps(1) 3.05s infinite reverse;}
+  .gm,.gc{mix-blend-mode:screen}
+  @keyframes rise{0%{opacity:0;transform:translateY(14px)}100%{opacity:1;transform:translateY(0)}}
+  .rise{animation:rise .9s cubic-bezier(.16,1,.3,1) both}
+  @keyframes t1{0%{opacity:0;transform:translateY(16px)}4%{opacity:1;transform:translateY(0)}30%{opacity:1;transform:translateY(0)}34%{opacity:0;transform:translateY(-14px)}100%{opacity:0}}
+  .tag{opacity:0;animation:t1 11s cubic-bezier(.16,1,.3,1) infinite}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+  .float{animation:float 5s ease-in-out infinite}
+  @keyframes frag{0%,100%{opacity:1}12%{opacity:.2}14%{opacity:1}55%{opacity:.35}58%{opacity:1}80%{opacity:.5}83%{opacity:1}}
+  .frags{animation:frag 3.4s steps(1) infinite}
+  @keyframes ring{0%{r:70;opacity:.5}100%{r:190;opacity:0}}
+  .ring{animation:ring 4s ease-out infinite}
+  @keyframes dash{to{stroke-dashoffset:-40}}
+  .dash{animation:dash 1.4s linear infinite}
+  </style>
+
+<defs>
+  <pattern id="g" width="72" height="72" patternUnits="userSpaceOnUse">
+    <path d="M72 0H0V72" fill="none" stroke="#F2F4EF" stroke-opacity=".05"/>
+  </pattern>
+  <radialGradient id="m" cx="42%" cy="46%" r="75%"><stop offset="0" stop-color="#fff"/><stop offset=".75" stop-color="#000"/></radialGradient>
+  <mask id="gm"><rect width="1280" height="500" fill="url(#m)"/></mask>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#EFFF00" stop-opacity=".16"/><stop offset="1" stop-color="#EFFF00" stop-opacity="0"/></radialGradient>
+  <linearGradient id="sw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EFFF00" stop-opacity="0"/><stop offset=".92" stop-color="#EFFF00" stop-opacity=".09"/><stop offset="1" stop-color="#EFFF00" stop-opacity=".55"/></linearGradient>
+  <radialGradient id="vig" cx="50%" cy="50%" r="75%"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".75"/></radialGradient>
+</defs>
+<rect width="1280" height="500" fill="#050505"/>
+<rect width="1280" height="500" fill="url(#g)" mask="url(#gm)"/>
+<ellipse cx="1020" cy="250" rx="420" ry="330" fill="url(#glow)"/>
+
+<!-- instrument corners -->
+<g fill="none" stroke="#EFFF00" stroke-width="2.5">
+  <path d="M20 52V20H52"/><path d="M1228 20H1260V52"/><path d="M20 448V480H52"/><path d="M1228 480H1260V448"/>
+</g>
+
+<!-- status bar -->
+<g class="mono" font-size="13" letter-spacing="4.5">
+  <rect class="blink" x="72" y="50" width="9" height="9" fill="#EFFF00"/>
+  <text x="94" y="59" fill="#EFFF00">SIGNAL ACQUIRED</text>
+  <text x="1208" y="59" fill="#8B9084" text-anchor="end">SOFTWARE ENGINEERING STUDIO · COLOMBIA</text>
+</g>
+<path d="M72 80H1208" stroke="#F2F4EF" stroke-opacity=".08"/>
+
+<!-- arrow mark -->
+<g transform="translate(982 132) scale(.84)">
+  <circle cx="130" cy="140" r="70" fill="none" stroke="#EFFF00" stroke-opacity=".5" class="ring"/>
+  <circle cx="130" cy="140" r="70" fill="none" stroke="#EFFF00" stroke-opacity=".5" class="ring" style="animation-delay:2s"/>
+  <g class="float" style="transform-origin:130px 140px">
+    <g opacity=".9"><g fill="#EFFF00">
+<path d="M130 8L248 126V196L130 78L12 196V126Z"/>
+<path d="M130 106L192 168V262H152V168L130 146L108 168V262H68V168Z"/>
+</g><g fill="#EFFF00" class="frags">
+<rect x="-28" y="118" width="34" height="7"/><rect x="-14" y="140" width="20" height="6"/><rect x="-40" y="160" width="26" height="6"/>
+<rect x="18" y="96" width="46" height="6" opacity=".85"/><rect x="2" y="182" width="30" height="6" opacity=".7"/><rect x="40" y="240" width="22" height="6" opacity=".6"/>
+<rect x="254" y="112" width="38" height="7"/><rect x="268" y="134" width="22" height="6" opacity=".85"/><rect x="254" y="156" width="30" height="6" opacity=".7"/>
+<rect x="204" y="90" width="40" height="6" opacity=".8"/><rect x="200" y="212" width="26" height="6" opacity=".6"/>
+</g></g>
+    <g class="gm" style="transform-origin:130px 140px"><g opacity=".7" fill="#FF00C1">
+<path d="M130 8L248 126V196L130 78L12 196V126Z"/>
+<path d="M130 106L192 168V262H152V168L130 146L108 168V262H68V168Z"/>
+</g></g>
+    <g class="gc" style="transform-origin:130px 140px"><g opacity=".7" fill="#00FFF9">
+<path d="M130 8L248 126V196L130 78L12 196V126Z"/>
+<path d="M130 106L192 168V262H152V168L130 146L108 168V262H68V168Z"/>
+</g></g>
+  </g>
+</g>
+
+<!-- wordmark -->
+<g transform="translate(72 128) scale(0.98)">
+  <g fill="#F2F4EF" class="rise"><path transform="translate(0 0)" fill-rule="evenodd" d="M0 0H60Q110 0 110 65Q110 130 60 130H0ZM26 26V104H56Q84 104 84 65Q84 26 56 26Z"/><path transform="translate(126 0)" fill-rule="evenodd" d="M0 0H100V26H26V52H88V78H26V104H100V130H0Z"/><path transform="translate(242 0)" fill-rule="evenodd" d="M0 0H28L56 94L84 0H112L72 130H40Z"/><path transform="translate(370 0)" fill-rule="evenodd" d="M0 0H26V104H100V130H0Z"/><path transform="translate(486 0)" fill-rule="evenodd" d="M0 0H100V26H26V52H88V78H26V104H100V130H0Z"/><path transform="translate(602 0)" fill-rule="evenodd" d="M110 40Q100 0 60 0Q0 0 0 65Q0 130 60 130Q100 130 110 90H84Q78 104 60 104Q26 104 26 65Q26 26 60 26Q78 26 84 40Z"/><path transform="translate(728 0)" fill-rule="evenodd" d="M0 0H26V52L72 0H108L58 62L110 130H74L26 76V130H0Z"/></g>
+  <g fill="#FF00C1" class="gm"><path transform="translate(0 0)" fill-rule="evenodd" d="M0 0H60Q110 0 110 65Q110 130 60 130H0ZM26 26V104H56Q84 104 84 65Q84 26 56 26Z"/><path transform="translate(126 0)" fill-rule="evenodd" d="M0 0H100V26H26V52H88V78H26V104H100V130H0Z"/><path transform="translate(242 0)" fill-rule="evenodd" d="M0 0H28L56 94L84 0H112L72 130H40Z"/><path transform="translate(370 0)" fill-rule="evenodd" d="M0 0H26V104H100V130H0Z"/><path transform="translate(486 0)" fill-rule="evenodd" d="M0 0H100V26H26V52H88V78H26V104H100V130H0Z"/><path transform="translate(602 0)" fill-rule="evenodd" d="M110 40Q100 0 60 0Q0 0 0 65Q0 130 60 130Q100 130 110 90H84Q78 104 60 104Q26 104 26 65Q26 26 60 26Q78 26 84 40Z"/><path transform="translate(728 0)" fill-rule="evenodd" d="M0 0H26V52L72 0H108L58 62L110 130H74L26 76V130H0Z"/></g>
+  <g fill="#00FFF9" class="gc"><path transform="translate(0 0)" fill-rule="evenodd" d="M0 0H60Q110 0 110 65Q110 130 60 130H0ZM26 26V104H56Q84 104 84 65Q84 26 56 26Z"/><path transform="translate(126 0)" fill-rule="evenodd" d="M0 0H100V26H26V52H88V78H26V104H100V130H0Z"/><path transform="translate(242 0)" fill-rule="evenodd" d="M0 0H28L56 94L84 0H112L72 130H40Z"/><path transform="translate(370 0)" fill-rule="evenodd" d="M0 0H26V104H100V130H0Z"/><path transform="translate(486 0)" fill-rule="evenodd" d="M0 0H100V26H26V52H88V78H26V104H100V130H0Z"/><path transform="translate(602 0)" fill-rule="evenodd" d="M110 40Q100 0 60 0Q0 0 0 65Q0 130 60 130Q100 130 110 90H84Q78 104 60 104Q26 104 26 65Q26 26 60 26Q78 26 84 40Z"/><path transform="translate(728 0)" fill-rule="evenodd" d="M0 0H26V52L72 0H108L58 62L110 130H74L26 76V130H0Z"/></g>
+</g>
+
+<!-- rotating thesis -->
+<g class="sans" font-size="34" font-weight="600">
+  <text x="72" y="352" fill="#EFFF00" class="mono" font-size="30">›</text>
+  <g class="tag" style="animation-delay:0s"><text x="106" y="352" fill="#F2F4EF">Web platforms that hold up in <tspan fill="#EFFF00">production</tspan>.</text></g>
+  <g class="tag" style="animation-delay:3.6s"><text x="106" y="352" fill="#F2F4EF">Automation that keeps running while you <tspan fill="#EFFF00">sleep</tspan>.</text></g>
+  <g class="tag" style="animation-delay:7.2s"><text x="106" y="352" fill="#F2F4EF">Applied AI aimed at a real <tspan fill="#EFFF00">problem</tspan>.</text></g>
+</g>
+
+<g class="mono" font-size="14" letter-spacing="3.2">
+  <text x="72" y="410" fill="#8B9084">ALECK MARTINEZ  /  FOUNDER  /  FULLSTACK ENGINEERING  /  REMOTE · WORLDWIDE</text>
+  <text x="72" y="446" fill="#8B9084">WEB PLATFORMS</text>
+  <rect x="226" y="438" width="6" height="6" fill="#EFFF00" opacity=".6"/>
+  <text x="248" y="446" fill="#8B9084">AUTOMATION</text>
+  <rect x="364" y="438" width="6" height="6" fill="#EFFF00" opacity=".6"/>
+  <text x="386" y="446" fill="#8B9084">AI SYSTEMS</text>
+</g>
+
+<!-- scanline sweep -->
+<g class="sweep"><rect width="1280" height="160" fill="url(#sw)"/></g>
+<rect width="1280" height="500" fill="url(#vig)"/>
+
+</svg>

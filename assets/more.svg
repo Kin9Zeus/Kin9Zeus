@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="See all repositories on GitHub">
+<title>See all repositories on GitHub</title>
+<style>@keyframes ar{0%,100%{transform:translate(0,0)}50%{transform:translate(14px,-14px)}}.ar{animation:ar 2.2s ease-in-out infinite}
+  @keyframes sweep{0%{transform:translateY(-200px)}100%{transform:translateY(680px)}}.sw{animation:sweep 6s linear infinite}
+  @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}.pl{animation:pulse 2s ease-in-out infinite}</style>
+<defs>
+  <pattern id="g" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#F2F4EF" stroke-opacity=".06"/></pattern>
+  <linearGradient id="sw" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EFFF00" stop-opacity="0"/><stop offset="1" stop-color="#EFFF00" stop-opacity=".16"/></linearGradient>
+  <radialGradient id="gl" cx="75%" cy="25%" r="60%"><stop offset="0" stop-color="#EFFF00" stop-opacity=".18"/><stop offset="1" stop-color="#EFFF00" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1280" height="640" fill="#050505"/><rect width="1280" height="640" fill="url(#g)"/><rect width="1280" height="640" fill="url(#gl)"/>
+<rect x="1" y="1" width="1278" height="638" fill="none" stroke="#EFFF00" stroke-opacity=".3" stroke-width="2"/>
+<g class="sw"><rect width="1280" height="200" fill="url(#sw)"/></g>
+<rect class="pl" x="90" y="120" width="14" height="14" fill="#EFFF00"/>
+<text x="124" y="134" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="24" letter-spacing="6" fill="#EFFF00">GITHUB.COM/KIN9ZEUS</text>
+<text x="90" y="300" font-family="'Archivo Black','Arial Black','Helvetica Neue',Arial,sans-serif" font-size="104" fill="#F2F4EF">ALL THE</text>
+<text x="90" y="410" font-family="'Archivo Black','Arial Black','Helvetica Neue',Arial,sans-serif" font-size="104" fill="#EFFF00">CODE.</text>
+<text x="90" y="500" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif" font-size="32" fill="#8B9084">Every repository, README and release.</text>
+<g transform="translate(900 250)"><g class="ar" fill="none" stroke="#EFFF00" stroke-width="22" stroke-linecap="square"><path d="M30 250L250 30M60 30H250V220"/></g></g>
+</svg>

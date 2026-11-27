@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 80" width="1200" height="80" role="img" aria-label="Signal wave divider">
+<title>Signal wave divider</title>
+<style>@keyframes mv{from{transform:translateX(0)}to{transform:translateX(-300px)}}
+  @keyframes mv2{from{transform:translateX(-300px)}to{transform:translateX(0)}}
+  .a{animation:mv 4s linear infinite}.b{animation:mv2 7s linear infinite}
+  @keyframes blip{0%{opacity:0}10%{opacity:1}90%{opacity:1}100%{opacity:0}}</style>
+<defs>
+  <linearGradient id="f" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".18" stop-color="#fff"/><stop offset=".82" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <mask id="mk"><rect width="1200" height="80" fill="url(#f)"/></mask>
+</defs>
+<g mask="url(#mk)">
+  <path d="M0 40H1200" stroke="#F2F4EF" stroke-opacity=".08"/>
+  <g class="b"><path d="M-300 40 C-246 30,-204 30,-150 40 S-54.00000000000003 50,0 40 C54 30,96 30,150 40 S245.99999999999997 50,300 40 C354 30,396 30,450 40 S546 50,600 40 C654 30,696 30,750 40 S846 50,900 40 C954 30,996 30,1050 40 S1146 50,1200 40 C1254 30,1296 30,1350 40 S1446 50,1500 40 C1554 30,1596 30,1650 40 S1746 50,1800 40" fill="none" stroke="#00FFF9" stroke-opacity=".28" stroke-width="1.5"/></g>
+  <g class="a"><path d="M-300 40 C-246 14,-204 14,-150 40 S-54.00000000000003 66,0 40 C54 14,96 14,150 40 S245.99999999999997 66,300 40 C354 14,396 14,450 40 S546 66,600 40 C654 14,696 14,750 40 S846 66,900 40 C954 14,996 14,1050 40 S1146 66,1200 40 C1254 14,1296 14,1350 40 S1446 66,1500 40 C1554 14,1596 14,1650 40 S1746 66,1800 40" fill="none" stroke="#EFFF00" stroke-width="2.4"/></g>
+</g>
+</svg>
