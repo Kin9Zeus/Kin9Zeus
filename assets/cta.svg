@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 110" width="760" height="110" role="img" aria-label="Start a project — contact@devleck.com">
+<title>Start a project — contact@devleck.com</title>
+<style>@keyframes sw{0%{transform:translateX(-120%)}55%,100%{transform:translateX(320%)}}.sw{animation:sw 3.2s cubic-bezier(.16,1,.3,1) infinite}
+  @keyframes ar{0%,100%{transform:translate(0,0)}50%{transform:translate(6px,-6px)}}.ar{animation:ar 1.6s ease-in-out infinite}
+  @keyframes glow{0%,100%{opacity:.25}50%{opacity:.6}}.gl{animation:glow 2.6s ease-in-out infinite}</style>
+<defs>
+  <clipPath id="b"><rect width="760" height="110"/></clipPath>
+  <linearGradient id="s" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".85"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<rect class="gl" x="-6" y="-6" width="772" height="122" fill="none" stroke="#EFFF00" stroke-width="2"/>
+<rect width="760" height="110" fill="#EFFF00"/>
+<g clip-path="url(#b)"><g class="sw"><rect x="0" y="-10" width="140" height="130" fill="url(#s)" transform="skewX(-18)"/></g></g>
+<text x="60" y="52" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="30" font-weight="700" letter-spacing="5" fill="#000">START A PROJECT</text>
+<text x="60" y="84" font-family="'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace" font-size="16" letter-spacing="3" fill="#000" opacity=".7">CONTACT@DEVLECK.COM  ·  WWW.DEVLECK.COM</text>
+<g transform="translate(664 30)"><g class="ar" fill="none" stroke="#000" stroke-width="7" stroke-linecap="square"><path d="M10 50L50 10M18 10H50V42"/></g></g>
+</svg>
