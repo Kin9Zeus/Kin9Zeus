@@ -20,7 +20,7 @@
   .caret{animation:caret 18s infinite;animation-timing-function:steps(1,end)}
   </style>
 
-<defs><clipPath id="c0"><rect class="l0" x="56" y="94" height="34" width="0"/></clipPath><clipPath id="c1"><rect class="l1" x="56" y="134" height="34" width="0"/></clipPath><clipPath id="c2"><rect class="l2" x="56" y="184" height="34" width="0"/></clipPath><clipPath id="c3"><rect class="l3" x="56" y="224" height="34" width="0"/></clipPath><clipPath id="c4"><rect class="l4" x="56" y="274" height="34" width="0"/></clipPath><clipPath id="c5"><rect class="l5" x="56" y="314" height="34" width="0"/></clipPath>
+<defs><clipPath id="c0"><rect class="l0" x="56" y="94" height="34" width="97.6"/></clipPath><clipPath id="c1"><rect class="l1" x="56" y="134" height="34" width="658.8"/></clipPath><clipPath id="c2"><rect class="l2" x="56" y="184" height="34" width="183.0"/></clipPath><clipPath id="c3"><rect class="l3" x="56" y="224" height="34" width="805.2"/></clipPath><clipPath id="c4"><rect class="l4" x="56" y="274" height="34" width="195.2"/></clipPath><clipPath id="c5"><rect class="l5" x="56" y="314" height="34" width="707.6"/></clipPath>
   <linearGradient id="hl" x1="0" x2="1"><stop offset="0" stop-color="#EFFF00" stop-opacity="0"/><stop offset=".5" stop-color="#EFFF00" stop-opacity=".12"/><stop offset="1" stop-color="#EFFF00" stop-opacity="0"/></linearGradient>
   <clipPath id="panel"><rect x="1" y="1" width="1198" height="358"/></clipPath>
 </defs>
@@ -39,7 +39,7 @@
 <text clip-path="url(#c3)" x="56" y="248" fill="#8B9084" font-size="20" textLength="805.2" lengthAdjust="spacing" xml:space="preserve">TypeScript · React · Next.js · Astro · Node.js · PostgreSQL · GSAP</text>
 <text clip-path="url(#c4)" x="56" y="298" fill="#EFFF00" font-size="20" textLength="195.2" lengthAdjust="spacing" xml:space="preserve">$ ./status --now</text>
 <text clip-path="url(#c5)" x="56" y="338" fill="#F2F4EF" font-size="20" textLength="707.6" lengthAdjust="spacing" xml:space="preserve">● open for new projects   ● remote · worldwide   ● ES / EN</text>
-<rect class="caret blink" x="0" y="0" width="11" height="22" fill="#EFFF00"/>
+<rect class="caret blink" opacity="0" x="0" y="0" width="11" height="22" fill="#EFFF00"/>
 </g>
 
 </svg>

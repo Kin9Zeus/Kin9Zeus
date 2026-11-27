@@ -66,7 +66,7 @@ Every project below is public, with its own README: screenshots, architecture no
 </td>
 <td width="33%" valign="top">
 <a href="https://github.com/Kin9Zeus/Millimeter-South-America"><img src="assets/projects/mm-sa.jpg" alt="MILLIMETER South America" width="100%"></a><br>
-<b><a href="https://github.com/Kin9Zeus/Millimeter-South-America">MILLIMETER · South America</a></b> · <a href="https://www.millimetersouthamerica.com/">live ↗</a><br>
+<b><a href="https://github.com/Kin9Zeus/Millimeter-South-America">MILLIMETER · S. America</a></b> · <a href="https://www.millimetersouthamerica.com/">live ↗</a><br>
 <sub>Four languages including right-to-left Arabic, 48 static pages, strict CSP and zero third-party requests.</sub><br>
 <sub><code>Astro</code> <code>Tailwind</code> <code>Express</code></sub>
 </td>
@@ -116,7 +116,7 @@ Every project below is public, with its own README: screenshots, architecture no
 
 <a href="mailto:contact@devleck.com"><img src="assets/cta.svg" alt="Start a project — contact@devleck.com" width="70%"></a>
 
-<sub>**ES** · Estudio de ingeniería de software en Colombia: desarrollo a medida, automatización e IA. Trabajo en remoto con clientes de toda Latinoamérica, España y Estados Unidos.</sub>
+<sub><b>ES</b> · Estudio de ingeniería de software en Colombia: desarrollo a medida, automatización e IA. Trabajo en remoto con clientes de toda Latinoamérica, España y Estados Unidos.</sub>
 
 </div>
 
